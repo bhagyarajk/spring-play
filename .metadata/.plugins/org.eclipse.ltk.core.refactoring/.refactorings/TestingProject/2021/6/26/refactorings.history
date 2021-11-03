@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ThredsData&apos; to &apos;ThreadsForStatic&apos;&#x0D;&#x0A;- Original project: &apos;TestingProject&apos;&#x0D;&#x0A;- Original element: &apos;ThredsData&apos;&#x0D;&#x0A;- Renamed element: &apos;ThreadsForStatic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ThredsData&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ThredsData.java[ThredsData" matchStrategy="1" name="ThreadsForStatic" qualified="false" references="true" similarDeclarations="false" stamp="1624216424398" textual="false" version="1.0"/>
+</session>

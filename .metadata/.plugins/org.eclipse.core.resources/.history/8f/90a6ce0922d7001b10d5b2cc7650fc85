@@ -1,0 +1,33 @@
+package com.learn.web.springboot.modelattribute;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class StudentInfoController {
+	@RequestMapping(value = "/studentinfo", method = RequestMethod.POST)
+	public ResponseEntity<Model> getStudentInfo(@ModelAttribute("Student2") Student student,
+			HttpServletResponse response, ModelAndView modelAndView) {
+		System.out.println("student info called");
+		response.addHeader("from", "spring");
+		modelAndView.setViewName("student");
+
+		return ResponseEntity.ok().body(modelAndView);
+
+		// return "student";
+
+	}
+
+	@ModelAttribute
+	public void modelAttribute() {
+		System.out.println("inside the model attribute method");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.practice;
+
+public class Practice {
+	public static void main(String[] args) {
+		System.out.println("testing the string comparison");
+
+		String test = new String("Hello");
+		if (test == "Hello") {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
+	}
+}

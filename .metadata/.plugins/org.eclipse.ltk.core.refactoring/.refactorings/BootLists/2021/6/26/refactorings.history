@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootLists/src/main/resources/values.properties&apos; to &apos;listvalues.properties&apos;" description="Rename resource &apos;values.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/values.properties" name="listvalues.properties" stamp="1624307565307" updateReferences="true"/>
+</session>

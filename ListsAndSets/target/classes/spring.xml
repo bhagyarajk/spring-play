@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+<bean id = "collectiondemo" class = "com.learn.ListsAndSets.CollectionsDemo">
+<property name="addressList">
+	<list>
+		<value>raj</value>
+		<value>ramesh</value>
+		<value>prajwal</value>
+		<value>vidya</value>
+	</list>
+</property>
+<property name="addressSet">
+	<set>
+		<value>raj</value>
+		<value>ramesh</value>
+		<value>ramesh</value>
+		<value>prajwal</value>
+		<value>vidya</value>
+	</set>
+</property>
+<property name="addressMap">
+	<map>
+		<entry key = "1" value = "ramesh"></entry>
+		<entry key = "2" value = "1"></entry>
+		<entry key = "3" value = "Hello"></entry>
+		<entry key = "4" value = "1.1f"></entry>
+	</map>
+</property>
+<property name="addressProps">
+	<props>
+	    <prop key = "1" >ramesh</prop>
+		<prop key = "2" >bhagyaraj</prop>
+		<prop key = "3" >kumar</prop>
+		<prop key = "4" >vinod</prop>
+	</props>
+
+
+</property>
+</bean>   
+
+
+</beans>
